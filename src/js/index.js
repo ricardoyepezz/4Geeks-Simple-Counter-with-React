@@ -14,7 +14,7 @@ setInterval(() => {
 	const four = Math.floor(counter / 1000);
 	const three = Math.floor(counter / 100);
 	const two = Math.floor(counter / 10);
-	const one = Math.floor(counter / 1);
+	const one = counter;
 	counter++;
 	//render
 	ReactDOM.render(
